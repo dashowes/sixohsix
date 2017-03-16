@@ -1,0 +1,50 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home {
+    text-align: right;
+    font-family: Futura, sans-serif;
+}
+
+.tagline {
+    margin-right: 1.75em;
+    margin-top: -.92em;
+}
+
+#masthead {
+    color: #c0c0c0 !important;
+    font-size: 9.11em;
+    margin-top: 1.35em;
+    margin-right: .23em;
+    margin-bottom: 23px;
+}
+@-webkit-keyframes colours {
+     0% {color: #5f6370;}
+     20% {color: #74646f;}
+     40% {color: #fc6b6b;}
+     60% {color: #74646f;}
+     80% {color: #74646f;}
+    100% {color: #5f6370;}
+}
+@-moz-keyframes colours {
+     0% {color: #5f6370;}
+     20% {color: #74646f;}
+     40% {color: #fc6b6b;}
+     60% {color: #74646f;}
+     80% {color: #74646f;}
+    100% {color: #5f6370;}
+}
+
+#masthead {
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: colours;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-direction: normal;
+    -moz-animation-duration: 12s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-name: colours;
+    -moz-animation-timing-function: ease;
+}
