@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .home {
     text-align: right;
     font-family: Futura, sans-serif;
@@ -19,6 +24,23 @@
     margin-right: .23em;
     margin-bottom: 23px;
 }
+
+#projects {
+    &:hover {
+        cursor: pointer;
+        color: #5f6370;
+    }
+}
+
+#links {
+    .tagline {
+        a:hover {
+        cursor: pointer;
+        color: #5f6370;
+        }
+    }
+}
+
 @-webkit-keyframes colours {
      0% {color: #5f6370;}
      20% {color: #74646f;}
